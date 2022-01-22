@@ -1,0 +1,33 @@
+.body {
+    background: linear-gradient(#B0F5F4, #273635, );
+}
+#top {
+    font-family: 'Consolas', monospace;
+}
+#grid-container {
+    display: grid;
+    
+    grid-template-columns: 25% auto auto;
+    grid-template-rows: 400px;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    height: auto;
+}
+#chat-container {
+    text-align:center;
+    background-color: royalblue;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#chat-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 375px 25px;
+}
+#chat-display {
+    color: green;
+    background-color: black;
+}
