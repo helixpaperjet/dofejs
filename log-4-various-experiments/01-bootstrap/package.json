@@ -1,0 +1,14 @@
+{
+  "name": "01-bootstrap",
+  "version": "1.0.0",
+  "description": "bootstrap test",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "helixpaperjet",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
