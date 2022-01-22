@@ -1,13 +1,3 @@
-function main() {
-    console.log("Hello JavaScript!");
-    var docElement = document.getElementById("main-replace");
-    docElement.innerHTML = null;
-    // This code will run 100 times
-    for (var i = 0; i < 100; i++) {
-        console.log("Number: ", i);
-        docElement.innerHTML += i.toString()+"<br />"
-    }
-}
 function fibonacci(startIndex, endIndex) {
     var i = startIndex;
     var firstElement = 0;
@@ -26,3 +16,4 @@ function fibonacci(startIndex, endIndex) {
     }
     console.log(output);
 }
+fibonacci(1, 100)
